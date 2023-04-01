@@ -699,6 +699,7 @@ footer ul li h6 {
 footer {
   margin-top: 7vh;
   background: rgb(55, 41, 41);
+  border-radius: 6px;
 }
 .footer_bx {
   display: flex;
