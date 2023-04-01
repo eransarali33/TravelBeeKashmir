@@ -159,12 +159,6 @@ header {
   zoom: 1.05;
 }
 
-/* #ContentPlaceHolder1_bloglist .midimg img {
-  width: 100%;
-  min-height: 150px;
-  transition: transform 330ms ease-in-out;
-} */
-
 .kmr_card p {
   padding: 15px;
   color: white;
@@ -333,10 +327,13 @@ header {
 
 /* Package Section */
 
+.packages_section {
+  margin: 0 3%;
+}
 .packages_section .packages .scenic_packages_img {
   background: url("images/scenic.jpg");
   height: 40vh;
-  width: 100%;
+  width: 94%;
   background-size: cover;
   border-radius: 7px 7px 0 0;
 }
@@ -344,7 +341,7 @@ header {
 .packages_section .packages .enchanting_packages_img {
   background: url("images/enchanting.jpg");
   height: 40vh;
-  width: 100%;
+  width: 94%;
   background-size: cover;
   border-radius: 7px 7px 0 0;
 }
@@ -352,7 +349,7 @@ header {
 .packages_section .packages .blissful_packages_img {
   background: url("images/blissful1.jpg");
   height: 40vh;
-  width: 100%;
+  width: 94%;
   background-size: cover;
   border-radius: 7px 7px 0 0;
 }
@@ -360,7 +357,7 @@ header {
 .packages_section .packages .amazing_packages_img {
   background: url("images/amazing1.jpg");
   height: 40vh;
-  width: 100%;
+  width: 94%;
   background-size: cover;
   border-radius: 7px 7px 0 0;
 }
