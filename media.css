@@ -361,9 +361,10 @@
   .offers .cards .card {
     width: 83%;
   }
-  .offers .cards .card .img_text {
+  .offers .cards .card .img_text img {
     width: 100%;
   }
+
   .destination .des_bx,
   .img_bx {
     width: 80%;
@@ -423,12 +424,7 @@
     width: 85%;
     margin-top: 10px;
   }
-  /* .offers .cards .card {
-    width: 84%;
-  }
-  .offers .cards .card img {
-    width: 84%;
-  } */
+
   .destination .img_bx .msg:nth-child(2) {
     left: 50%;
   }
@@ -568,12 +564,6 @@
   header .content .cont_bx p {
     font-size: 9px;
   }
-  /* .offers .cards .card {
-    width: 84%;
-  }
-  .offers .cards .card img {
-    width: 84%;
-  } */
 
   .footer_btm p {
     padding-left: 16px;
