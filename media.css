@@ -361,9 +361,9 @@
   .offers .cards .card {
     width: 83%;
   }
-  /* .offers .cards .card img {
+  .offers .cards .card .img_text {
     width: 100%;
-  } */
+  }
   .destination .des_bx,
   .img_bx {
     width: 80%;
