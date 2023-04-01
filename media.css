@@ -359,11 +359,11 @@
     justify-content: center;
   }
   .offers .cards .card {
-    width: 84%;
-  }
-  .offers .cards .card img {
     width: 83%;
   }
+  /* .offers .cards .card img {
+    width: 100%;
+  } */
   .destination .des_bx,
   .img_bx {
     width: 80%;
