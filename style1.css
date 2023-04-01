@@ -1,0 +1,514 @@
+/* About Page */
+
+.about {
+  height: auto;
+  width: 80%;
+}
+.about h2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+
+.about .about_img {
+  background: url("images/about_img.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.about_section {
+  display: flex;
+  justify-content: center;
+}
+
+.about_section h4 {
+  color: crimson;
+}
+
+.about_section b {
+  color: crimson;
+}
+
+header {
+  padding-bottom: 10%;
+}
+
+#feedback div span img {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+
+#feedback div span i {
+  color: orangered;
+  cursor: pointer;
+}
+
+#feedback h2 {
+  height: auto;
+  padding: 9px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background: rgb(208, 204, 204);
+}
+
+#feedback .main_feedback {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#feedback .main_feedback .card {
+  width: 40%;
+  background: rgb(167, 142, 142);
+  padding: 1%;
+  border-radius: 8px;
+  margin: 0 3%;
+}
+
+#feedback .main_feedback div b {
+  color: crimson;
+}
+
+#feedback div span {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Kashmir Section */
+
+.kashmir_section {
+  display: flex;
+  justify-content: center;
+}
+
+.kashmir_section .kashmir .kashmir_img {
+  background: url("images/kashmirbg2.webp");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.kashmir_section .kashmir .kashmir_txt {
+  width: 65%;
+  height: 100%;
+}
+
+.kashmir {
+  height: auto;
+  width: 80%;
+}
+.kashmir h2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+
+.kmr_cards_section {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.kmr_cards_section h2 {
+  display: flex;
+  justify-content: center;
+  background: rgb(127, 107, 107);
+  height: 58px;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.kmr_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kmr_card {
+  width: 35%;
+  height: 30%;
+  background: gray;
+  border-radius: 5px;
+  margin: 20px 50px;
+  /* box-shadow: 0 20px 25px -10px rgb(165, 165, 165); */
+}
+
+.kmr_card h4 {
+  padding-left: 4%;
+  color: brown;
+}
+
+.kmr_card img {
+  width: 100%;
+  height: 270px;
+}
+
+.kmr_card img:hover {
+  zoom: 1.05;
+}
+
+/* #ContentPlaceHolder1_bloglist .midimg img {
+  width: 100%;
+  min-height: 150px;
+  transition: transform 330ms ease-in-out;
+} */
+
+.kmr_card p {
+  padding: 15px;
+  color: white;
+}
+
+.kmr_card span button a {
+  color: white;
+  text-decoration: none;
+}
+.kmr_card span {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.kmr_card span button {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 12px;
+  background: rgb(150, 53, 18);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.kmr_card span button:hover {
+  background: rgb(210, 109, 65);
+  color: white;
+}
+
+/* Ladakh Section */
+
+.ladakh_section {
+  display: flex;
+  justify-content: center;
+}
+
+.ladakh_section .ladakh .ladakh_img {
+  background: url("images/ladakhbg.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.ladakh_section .ladakh .ladakh_txt {
+  width: 65%;
+  height: 100%;
+}
+
+.ladakh {
+  height: auto;
+  width: 80%;
+}
+.ladakh h2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+
+.ldk_cards_section {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.ldk_cards_section h2 {
+  display: flex;
+  justify-content: center;
+  background: rgb(127, 107, 107);
+  height: 58px;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.ldk_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ldk_card {
+  width: 35%;
+  height: 30%;
+  background: gray;
+  border-radius: 5px;
+  margin: 20px 50px;
+}
+
+.ldk_card h4 {
+  padding-left: 4%;
+  color: brown;
+}
+
+.ldk_card img {
+  width: 100%;
+  height: 270px;
+  border-radius: 6px;
+}
+
+.ldk_card img:hover {
+  zoom: 1.05;
+}
+
+.ldk_card p {
+  padding: 15px;
+  color: white;
+}
+
+.ldk_card span button a {
+  color: white;
+  text-decoration: none;
+}
+.ldk_card span {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.ldk_card span button {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 10px 12px;
+  background: rgb(150, 53, 18);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.ldk_card span button:hover {
+  background: rgb(210, 109, 65);
+  color: white;
+}
+
+/* Services Section */
+
+.service_section {
+  display: flex;
+  justify-content: center;
+}
+
+.service_section .service {
+  width: 80%;
+}
+
+.service_section .service .service_img {
+  background: url("images/services-bg.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.service h2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: rgb(113, 34, 34);
+}
+
+.service h3 b {
+  color: rgb(197, 48, 48);
+}
+
+/* Package Section */
+
+.packages_section .packages .scenic_packages_img {
+  background: url("images/scenic.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.packages_section .packages .enchanting_packages_img {
+  background: url("images/enchanting.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.packages_section .packages .blissful_packages_img {
+  background: url("images/blissful1.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.packages_section .packages .amazing_packages_img {
+  background: url("images/amazing1.jpg");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+header {
+  height: auto;
+}
+
+.package_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.package_card {
+  width: 20%;
+  height: 20%;
+  border: 1px solid gray;
+  margin: 10px 15px;
+  border-radius: 5px;
+}
+
+.package_card span {
+  justify-content: center;
+  height: auto;
+  align-items: center;
+}
+
+.package_card span img {
+  height: 170px;
+  width: 100%;
+}
+
+.package_card span div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.package_card span div h4 {
+  padding: 0 5px;
+  font-size: 14px;
+  color: rgb(161, 116, 58);
+}
+
+.package_card span div p {
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.expect span {
+  line-height: 0;
+  margin-top: 7px;
+  padding: 7px;
+  border-radius: 50%;
+  color: brown;
+  background: rgb(237, 233, 233);
+}
+
+.expect span h1 {
+  margin-left: 15px;
+}
+
+.expect span p {
+  margin-left: 11px;
+}
+
+.expect div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.expect div h2 {
+  padding: 0 3px;
+  color: chocolate;
+}
+
+.expect div p {
+  font-size: 19px;
+  padding-right: 19px;
+  padding-top: 6px;
+}
+
+.packages_data span h3 {
+  color: brown;
+}
+
+.inclusion h3 {
+  color: brown;
+}
+
+.exclusion h3 {
+  color: brown;
+}
+
+.expect h2 {
+  color: rgb(67, 63, 63);
+}
+
+/* Quick Links Section */
+.quickLinks_section .quickLinks .quickLinks_img {
+  background: url("images/kashmirbg2.webp");
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.quickLinks h2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+
+.quickLinks_section .quickLinks div h5 {
+  color: brown;
+}
+.quickLinks_section .quickLinks div b {
+  color: rgb(134, 67, 67);
+}
+
+.quickLinks_section .quickLinks .spans {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.quickLinks_section .quickLinks .spans .spanA {
+  display: flex;
+  flex-direction: column;
+}
+
+.quickLinks_section .quickLinks .spans .spanA b {
+  margin-top: 7%;
+  color: black;
+}
+
+.quickLinks_section .quickLinks .spans .spanB {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  margin-left: 20%;
+  color: rgb(34, 34, 89);
+}
+
+header .quickLinks_section .quickLinks .qlData {
+  width: 90%;
+}
