@@ -362,7 +362,7 @@
     width: 84%;
   }
   .offers .cards .card img {
-    width: 84%;
+    width: 83%;
   }
   .destination .des_bx,
   .img_bx {
@@ -423,12 +423,12 @@
     width: 85%;
     margin-top: 10px;
   }
-  .offers .cards .card {
+  /* .offers .cards .card {
     width: 84%;
   }
   .offers .cards .card img {
     width: 84%;
-  }
+  } */
   .destination .img_bx .msg:nth-child(2) {
     left: 50%;
   }
