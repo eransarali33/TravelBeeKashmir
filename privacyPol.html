@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -66,26 +67,26 @@
               booking <b>TravelBee Kashmir</b> can call you for providing
               different type of information about your booked tour.
             </p>
-            <h5>What is a Website Privacy Policy:</h5>
-            <p>
+            <h5 data-aos="fade-out">What is a Website Privacy Policy:</h5>
+            <p data-aos="fade-out">
               A Privacy Policy can be described as a statement that outlines the
               website's Policy on gathering and using information about a
               visitor to its site.
             </p>
-            <p>
+            <p data-aos="fade-out">
               A Privacy Policy generally spells out the details about sharing
               customers'names, addresses, phone numbers, and Email Ids with
               third parties. Certain web pages even ask visitors to click a
               button to acknowledge that they have read and agreed to the
               Privacy Policy of the site.
             </p>
-            <h5>The need for a Privacy Policy:</h5>
-            <p>
+            <h5 data-aos="fade-out">The need for a Privacy Policy:</h5>
+            <p data-aos="fade-out">
               A visitor to the website is somewhat disturbed when suddenly asked
               about the name, postal address, telephone numbers, credit card
               particulars and certain other personal information.
             </p>
-            <p>
+            <p data-aos="fade-out">
               It is a natural human tendency not to part with personal
               information unless assured that it will not be shared with third
               parties and the information will not be misused. Thus the need for
@@ -176,5 +177,13 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

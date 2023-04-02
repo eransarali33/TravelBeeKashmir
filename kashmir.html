@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -74,10 +75,10 @@
         </div>
       </div>
     </header>
-    <div class="kmr_cards_section">
+    <div class="kmr_cards_section" data-aos="fade-out">
       <h2>Featured Places</h2>
       <span class="kmr_cards">
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/gulmarg.jpg" alt="Gulmarg" />
           <h4>Gulmarg</h4>
           <p>
@@ -96,7 +97,7 @@
           </span>
         </div>
 
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/aharbal.jpeg" alt="Aharbal Waterfall" />
           <h4>Aharbal Waterfall</h4>
           <p>
@@ -112,7 +113,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/gurez.jpg" alt="Gurez" />
           <h4>Gurez</h4>
           <p>
@@ -129,7 +130,7 @@
           </span>
         </div>
 
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/pahalgam.jpg" alt="Pahalgam" />
           <h4>Pahalgam</h4>
           <p>
@@ -146,7 +147,7 @@
           </span>
         </div>
 
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/hari-parbat.webp" alt="Hari Parbat" />
           <h4>Hari Parbat</h4>
           <p>
@@ -165,7 +166,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/drung.jpg" alt="Drung Waterfall" />
           <h4>Drung Waterfall</h4>
           <p>
@@ -184,7 +185,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/bangus.jpg" alt="Bangus Valley" />
           <h4>Bangus Valley</h4>
           <p>
@@ -203,7 +204,7 @@
           </span>
         </div>
 
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/tulip.avif" alt="Tulip Garden" />
           <h4>Tulip Garden</h4>
           <p>
@@ -221,7 +222,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/nishat.jpg" alt="Nishat Garden" />
           <h4>Nishat Garden</h4>
           <p>
@@ -239,7 +240,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/uri.jpg" alt="Uri" />
           <h4>Uri</h4>
           <p>
@@ -258,7 +259,7 @@
           </span>
         </div>
 
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/sonamarg.jpg" alt="Sonamarg" />
           <h4>Sonamarg</h4>
           <p>
@@ -274,7 +275,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/gangbal.avif" alt="Gangbal" />
           <h4>Gangbal</h4>
           <p>
@@ -294,7 +295,7 @@
           </span>
         </div>
 
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-right">
           <img src="images/shalimar.jpg" alt="Shalimar Garden" />
           <h4>Shalimar Garden</h4>
           <p>
@@ -313,7 +314,7 @@
             </button>
           </span>
         </div>
-        <div class="kmr_card">
+        <div class="kmr_card" data-aos="flip-left">
           <img src="images/dal-lake.avif" alt="Dal Lake" />
           <h4>Dal Lake</h4>
           <p>
@@ -415,5 +416,13 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

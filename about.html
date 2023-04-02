@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -67,9 +68,9 @@
       </div>
     </header>
     <!-- FeedbackSection -->
-    <section id="feedback">
+    <section id="feedback" data-aos="fade-out">
       <h2>What do our Travelers say about us ?</h2>
-      <div class="main_feedback">
+      <div class="main_feedback" data-aos="fade-up">
         <div class="card">
           <h4>Rahul Mishra</h4>
           <p>
@@ -194,7 +195,14 @@
         </p>
       </div>
     </footer>
-
     <script src="script.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

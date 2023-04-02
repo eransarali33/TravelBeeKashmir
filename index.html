@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -41,24 +42,8 @@
             Creative taglines have the capability of capturing <br />
             the attention of potential customer.
           </p>
-          <!-- <button><a href="contact.html">Start your Journey</a></button> -->
         </div>
         <div class="trip_bx">
-          <!-- <div class="search_bx">
-            <div class="card">
-              <h4>Location <i class="bi bi-caret-down-fill"></i></h4>
-              <input type="text" placeholder="Enter your destination" />
-            </div>
-            <div class="card">
-              <h4>Date <i class="bi bi-caret-down-fill"></i></h4>
-              <input type="date" />
-            </div>
-            <div class="card">
-              <h4>People <i class="bi bi-caret-down-fill"></i></h4>
-              <input type="number" placeholder="How many People?" />
-            </div>
-            <input type="button" value="Explore Now" />
-          </div> -->
           <div class="travel_bx">
             <h4>Places to travel</h4>
             <div class="cards">
@@ -114,11 +99,11 @@
     </header>
     <!-- Offers Section -->
     <section id="offers">
-      <div class="offers">
+      <div class="offers" data-aos="fade-out">
         <h1>Best tour Package offers for you</h1>
         <p>Choose your next destination</p>
         <div class="cards">
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <div class="img_text">
               <img src="images/aharbal.jpeg" alt="Aharbal" />
             </div>
@@ -137,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-right">
             <div class="img_text">
               <img src="images/bangus.jpg" alt="Bangus Valley" />
             </div>
@@ -156,7 +141,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-down">
             <div class="img_text">
               <img src="images/drung.jpg" alt="Drung Waterfall" />
             </div>
@@ -175,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="flip-up">
             <div class="img_text">
               <img src="images/sonamarg.jpg" alt="Sonamarg" />
             </div>
@@ -199,7 +184,7 @@
     </section>
     <!-- Destination Section -->
     <section id="destination">
-      <div class="destination">
+      <div class="destination" data-aos="fade-up">
         <div class="des_bx">
           <h4>Our Services</h4>
           <p>
@@ -239,43 +224,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-    <!-- <footer>
-      <h2>
-        Subscribe & <br />
-        get special discount
-      </h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, natus
-        suscipit.
-      </p>
-      <div class="input">
-        <input type="text" placeholder="Enter your Email Address" />
-        <button>Subscribe</button>
-      </div>
-      <ul>
-        <li>
-          05 <br />
-          <h6>Years Serving the travel Industry</h6>
-        </li>
-        <li>
-          76 <br />
-          <h6>
-            Global <br />
-            Patnership
-          </h6>
-        </li>
-        <li>
-          64 <br />
-          <h6>Industry arards since 2017</h6>
-        </li>
-        <li>
-          17924 <br />
-          <h6>Subscribe</h6>
-        </li>
-      </ul>
-    </footer> -->
 
     <!-- Footer Section -->
 
@@ -359,5 +307,13 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -70,10 +71,10 @@
         </div>
       </div>
     </header>
-    <div class="ldk_cards_section">
+    <div class="ldk_cards_section" data-aos="fade-out">
       <h2>Featured Places</h2>
       <span class="ldk_cards">
-        <div class="ldk_card">
+        <div class="ldk_card" data-aos="flip-right">
           <img src="images/leh.jpg" alt="Leh" />
           <h4>Leh Market</h4>
           <p>
@@ -90,7 +91,7 @@
             </button>
           </span>
         </div>
-        <div class="ldk_card">
+        <div class="ldk_card" data-aos="flip-left">
           <img src="images/ladakh.jpg" alt="Ladakh" />
           <h4>Pangong Lake</h4>
           <p>
@@ -109,7 +110,7 @@
           </span>
         </div>
 
-        <div class="ldk_card">
+        <div class="ldk_card" data-aos="flip-right">
           <img src="images/shantiSt.jpg" alt="Shanti Stupa" />
           <h4>Shanti Stupa</h4>
           <p>
@@ -127,7 +128,7 @@
             </button>
           </span>
         </div>
-        <div class="ldk_card">
+        <div class="ldk_card" data-aos="flip-left">
           <img src="images/kargil1.avif" alt="Kargil" />
           <h4>Kargil</h4>
           <p>
@@ -143,7 +144,7 @@
             </button>
           </span>
         </div>
-        <div class="ldk_card">
+        <div class="ldk_card" data-aos="flip-right">
           <img src="images/mg-hill.jpg" alt="Magnetic Hill" />
           <h4>Magnetic Hill</h4>
           <p>
@@ -161,7 +162,7 @@
             </button>
           </span>
         </div>
-        <div class="ldk_card">
+        <div class="ldk_card" data-aos="flip-left">
           <img src="images/nubra.jpg" alt="Nubra" />
           <h4>Nubra Valley</h4>
           <p>
@@ -261,5 +262,13 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

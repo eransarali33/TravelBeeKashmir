@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -70,7 +71,7 @@
               </ul>
             </div>
             <hr />
-            <div class="expect">
+            <div class="expect" data-aos="fade-out">
               <h2>What to Expect</h2>
               <div>
                 <span>
@@ -83,7 +84,7 @@
             </div>
             <div class="package_cards">
               <!-- Card -->
-              <div class="package_card">
+              <div class="package_card" data-aos="flip-down">
                 <span>
                   <img src="images/nishat.jpg" alt="Nishat" />
                   <div>
@@ -100,7 +101,7 @@
                 </span>
               </div>
               <!-- Card -->
-              <div class="package_card">
+              <div class="package_card" data-aos="flip-up">
                 <span>
                   <img src="images/gulmarg.jpg" alt="Gulmarg" />
                   <div>
@@ -116,7 +117,7 @@
                 </span>
               </div>
               <!-- Card -->
-              <div class="package_card">
+              <div class="package_card" data-aos="flip-down">
                 <span>
                   <img src="images/pahalgam.jpg" alt="Pahalgam" />
                   <div>
@@ -134,7 +135,7 @@
                 </span>
               </div>
               <!-- Card -->
-              <div class="package_card">
+              <div class="package_card" data-aos="flip-up">
                 <span>
                   <img src="images/betaab.webp" alt="Betaab" />
                   <div>
@@ -150,7 +151,7 @@
                 </span>
               </div>
               <!-- Card -->
-              <div class="package_card">
+              <div class="package_card" data-aos="flip-down">
                 <span>
                   <img src="images/airport.jpg" alt="Airport" />
                   <div>
@@ -163,7 +164,7 @@
                 </span>
               </div>
             </div>
-            <div class="inclusion">
+            <div class="inclusion" data-aos="fade-out">
               <h3>Inclusions</h3>
               <ul>
                 <li>
@@ -185,7 +186,7 @@
               </ul>
             </div>
             <hr />
-            <div class="exclusion">
+            <div class="exclusion" data-aos="fade-out">
               <h3>Exclusion</h3>
               <ul>
                 <li>
@@ -285,5 +286,13 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>

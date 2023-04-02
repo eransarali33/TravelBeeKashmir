@@ -509,3 +509,12 @@ header {
 header .quickLinks_section .quickLinks .qlData {
   width: 90%;
 }
+
+/* Conatct */
+.contact-sec {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.contact-sec p b {
+  padding-right: 8px;
+}
